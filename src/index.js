@@ -5,11 +5,11 @@ import App from './App';
 import "leaflet/dist/leaflet.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './component/Footer/footer';
-import ContextProvider from './component/'
+// import ContextProvider from './component/'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
-  <ContextProvider>
+  
   <BrowserRouter>
       <Routes>
         <Route path='/' element={<App />} />
@@ -19,7 +19,7 @@ root.render(
       </Routes>
       <Footer />
   </BrowserRouter>
-  </ContextProvider>
+  
 );
 
 
