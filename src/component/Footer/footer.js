@@ -1,15 +1,17 @@
+import { BsFacebook, BsInstagram, BsTwitter, BsGithub, BsDribbble } from 'react-icons/bs';
+
 export default function Footer() {
 
     return (
         <Footer bgDark={true}>
-  <div className="w-full">
-    <div className="grid w-full grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
-      <div>
-        <Footer.Title title="Company" />
-        <Footer.LinkGroup col={true}>
-          <Footer.Link href="#">
+          <div className="w-full">
+            <div className="grid w-full grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
+              <div>
+          <Footer.Title title="Company" />
+          <Footer.LinkGroup col={true}>
+            <Footer.Link href="#">
             About
-          </Footer.Link>
+            </Footer.Link>
           <Footer.Link href="#">
             Careers
           </Footer.Link>
@@ -73,7 +75,7 @@ export default function Footer() {
     <div className="w-full bg-gray-700 py-6 px-4 sm:flex sm:items-center sm:justify-between">
       <Footer.Copyright
         href="#"
-        by="Flowbite™"
+        by="Crossover Team 2"
         year={2022}
       />
       <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">

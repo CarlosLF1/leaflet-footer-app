@@ -1,7 +1,7 @@
 import './App.css';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import { MapContainer, Marker, TileLayer } from 'react-leaflet';
 import useSwr from 'swr';
 // import * as restaurant from './component/restaurantData.json';
 
